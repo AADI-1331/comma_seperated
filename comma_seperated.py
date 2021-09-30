@@ -4,7 +4,7 @@
 
 Solution:
 values=raw_input()
-l=values.split(",")
-t=tuple(l)
-print l
-print t
+comma_form=values.split(",")
+tuple_form=tuple(comma_form)
+print comma_form
+print tuple_form
